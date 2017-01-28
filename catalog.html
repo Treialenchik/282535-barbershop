@@ -31,27 +31,29 @@
     <main>
       <div class="container">
         <h1 class="title-page">Средства для ухода</h1>
-          <ul class="breandcrumbs">
-            <li class="breandcrumbs-item"><a class="breandcrumbs-link" href="#">Главная</a></li>
-            <li class="breandcrumbs-item"><a class="breandcrumbs-link" href="#">Магазин</a></li>
-            <li class="resourc"><a class="current">Средства для ухода</a></li>
+          <ul class="breadcrumbs">
+            <li class="breadcrumbs-link"><a class="breadcrumbs-item" href="#">Главная</a></li>
+            <li class="breadcrumbs-link"><a class="breadcrumbs-item" href="#">Магазин</a></li>
+            <li class="resourc"><a breadcrumbs-item class="current">Средства для ухода</a></li>
           </ul>
       <div class="index-content">
-            <form action="">
-              <fieldset class="index-content-title">
-                <legend class="title">Производители:</legend>
-                  <label><input type="checkbox" name="BAXTER OF CALIFORNIA" checked>BAXTER OF CALIFORNIA</label>
-                  <label><input type="checkbox" name="MR NATTY">MR NATTY</label>
-                  <label><input type="checkbox" name="SUAVECITO" checked>SUAVECITO</label>
-                  <label><input type="checkbox" name="MALIN+GOETZ">MALIN+GOETZ</label>
-                  <label><input type="checkbox" name="MURRAY'S">MURRAY'S</label>
-                  <label><input type="checkbox" name="AMERICAN CREW" checked>AMERICAN CREW</label> 
-                <legend class="title">Группа товаров:</legend>
-                  <label><input type="radio" name="product" value="BAXTER OF CALIFORNIA">Бритвенные принадлежности</label>
-                  <label><input type="radio" name="product" value="MR NATTY" checked>Средства для ухода</label>
-                  <label><input type="radio" name="product" value="SUAVECITO">Аксессуары</label>
-                  <input type="submit" value="Показать">
+            <form class="form" action="#" method="get">
+              <fieldset class="fieldset-group">
+                <legend class="feildset-group-title">Производители:</legend>
+                  <label class="fieldset-item"><input type="checkbox" name="BAXTER OF CALIFORNIA" checked>BAXTER OF CALIFORNIA</label>
+                  <label class="feildset-group-item"><input type="checkbox" name="MR NATTY">MR NATTY</label>
+                  <label class="feildset-group-item"><input type="checkbox" name="SUAVECITO" checked>SUAVECITO</label>
+                  <label class="feildset-group-item"><input type="checkbox" name="MALIN+GOETZ">MALIN+GOETZ</label>
+                  <label class="feildset-group-item"><input type="checkbox" name="MURRAY'S">MURRAY'S</label>
+                  <label class="feildset-group-item"><input type="checkbox" name="AMERICAN CREW" checked>AMERICAN CREW</label> 
               </fieldset>
+              <fieldset class="fieldset-group">
+                <legend class="feildset-group-title">Группа товаров:</legend>
+                  <label class="feildset-group-item"><input type="radio" name="product" value="BAXTER OF CALIFORNIA">Бритвенные принадлежности</label>
+                  <label class="feildset-group-item"><input type="radio" name="product" value="MR NATTY" checked>Средства для ухода</label>
+                  <label class="feildset-group-item"><input type="radio" name="product" value="SUAVECITO">Аксессуары</label>
+              </fieldset>
+                <input type="submit" value="Показать">
             </form>
         </div>
       <div class="products">
@@ -73,7 +75,7 @@
               <a class="product" href="#">
                 <img src="http://placehold.it/150x100" alt="Гель для воло "SUAVECITO"">
               </a><br>
-              <a href="#"><span class="spec">Гель для волос</span><h4 class="trade-name">"SUAVECITO"</h4></a>
+              <a class="product" href="#"><span class="spec">Гель для волос</span><h4 class="trade-name">"SUAVECITO"</h4></a>
                 <div class="menu"><span class="price">290 РУБ.</span><a class="btn" href="#">Купить</a></div>
           </article>
           <article>
